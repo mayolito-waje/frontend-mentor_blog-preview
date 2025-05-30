@@ -25,12 +25,15 @@ main {
     font-family: "Figtree";
     background-color: #FFF;
     box-sizing: border-box;
+    border: 1px black solid;
     border-radius: 20px;
     padding: 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
+    max-width: 380px;
+    box-shadow: 6px 6px;
 }
 
 .blog-image {
@@ -72,6 +75,10 @@ main {
     font-size: 24px;
     line-height: 150%;
     text-wrap: wrap;
+}
+.content .blog-title:hover {
+    color: #F4D04E;
+    cursor: pointer;
 }
 
 .content .blog-article-preview {
